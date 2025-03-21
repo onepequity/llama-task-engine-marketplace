@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task Engine Marketplace</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -18,42 +19,175 @@
         </nav>
     </header>
     <main>
-        <section class="pitch">
+        <section class="hero">
             <h2>Unlock Open-Source AI with Task Engine Marketplace</h2>
-            <p>LLaMA, Meta’s open-source language model, outshines proprietary AIs like GPT-3 with its transparency and flexibility. Unlike closed systems, LLaMA lets businesses customize AI in their own secure, compliant instances—ideal for trusted AI deployments. However, leveraging LLaMA typically requires technical know-how. That’s where Task Engines come in: pre-built, ready-to-use solutions that make advanced AI accessible to non-developers. Developers, join the community—create and share your Task Engines, offering them for free or a fee. It’s open-source innovation with real-world impact.</p>
+            <p>LLaMA, Meta’s open-source language model, offers transparency and flexibility for businesses to deploy trusted AI. Task Engines make it accessible to all—pre-built solutions for every need. Browse or contribute today!</p>
             <div class="cta-buttons">
                 <a href="#catalog" class="button">Browse Task Engines</a>
                 <a href="#submit" class="button">Contribute Your Task Engine</a>
             </div>
         </section>
         <section id="catalog" class="catalog">
-            <h2>Available Task Engines</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Description</th>
-                        <th>Link</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>LLaMA Customer Feedback Engine</td>
-                        <td>Analyzes customer feedback to provide sentiment insights.</td>
-                        <td><a href="https://github.com/onepequity/llama-sentiment-analysis">View on GitHub</a></td>
-                    </tr>
-                    <tr>
-                        <td>Placeholder Task Engine 1</td>
-                        <td>Coming soon...</td>
-                        <td>N/A</td>
-                    </tr>
-                    <tr>
-                        <td>Placeholder Task Engine 2</td>
-                        <td>Coming soon...</td>
-                        <td>N/A</td>
-                    </tr>
-                </tbody>
-            </table>
+            <h2>Explore by Category</h2>
+            <!-- Customer Service -->
+            <div class="category">
+                <h3 class="category-title" style="background-color: #007BFF;">Customer Service</h3>
+                <div class="task-engines">
+                    <div class="task-engine-card">
+                        <h4>Email Response Assistant</h4>
+                        <p>Generates polite, context-aware email replies.</p>
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                    <div class="task-engine-card">
+                        <h4>FAQ Answer Generator</h4>
+                        <p>Creates accurate responses to common questions.</p>
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                    <div class="task-engine-card">
+                        <h4>Customer Sentiment Evaluator</h4>
+                        <p>Analyzes feedback for sentiment insights.</p>
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                    <div class="task-engine-card">
+                        <h4>Product Review Sentiment Analyzer</h4>
+                        <p>Gauges customer satisfaction from reviews.</p>
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Content Creation -->
+            <div class="category">
+                <h3 class="category-title" style="background-color: #28A745;">Content Creation</h3>
+                <div class="task-engines">
+                    <div class="task-engine-card">
+                        <h4>News Script Generator</h4>
+                        <p>Creates engaging news scripts from trends.</p>
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                    <div class="task-engine-card">
+                        <h4>Product Description Writer</h4>
+                        <p>Crafts compelling e-commerce descriptions.</p>
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                    <div class="task-engine-card">
+                        <h4>Poetry Composer</h4>
+                        <p>Writes custom poems for any occasion.</p>
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                    <div class="task-engine-card">
+                        <h4>Story Plot Generator</h4>
+                        <p>Sparks creativity with unique plot ideas.</p>
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Productivity -->
+            <div class="category">
+                <h3 class="category-title" style="background-color: #FD7E14;">Productivity</h3>
+                <div class="task-engines">
+                    <div class="task-engine-card">
+                        <h4>Meeting Summarizer</h4>
+                        <p>Turns transcripts into concise summaries.</p>
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                    <div class="task-engine-card">
+                        <h4>Job Description Creator</h4>
+                        <p>Writes clear job postings for any role.</p>
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                    <div class="task-engine-card">
+                        <h4>Code Commenter</h4>
+                        <p>Adds explanatory comments to code.</p>
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                    <div class="task-engine-card">
+                        <h4>Travel Itinerary Planner</h4>
+                        <p>Plans personalized travel itineraries.</p>
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Healthcare -->
+            <div class="category">
+                <h3 class="category-title" style="background-color: #DC3545;">Healthcare</h3>
+                <div class="task-engines">
+                    <div class="task-engine-card">
+                        <h4>Medical Abstract Summarizer</h4>
+                        <p>Summarizes complex medical research.</p>
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                    <div class="task-engine-card">
+                        <h4>MRI Scan Analyzer</h4>
+                        <p>Assists professionals with MRI analysis.</p>
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Education -->
+            <div class="category">
+                <h3 class="category-title" style="background-color: #6F42C1;">Education</h3>
+                <div class="task-engines">
+                    <div class="task-engine-card">
+                        <h4>Educational Quiz Maker</h4>
+                        <p>Generates quizzes from content.</p>
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                    <div class="task-engine-card">
+                        <h4>Personalized Learning Path Creator</h4>
+                        <p>Designs custom learning paths.</p>
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Legal -->
+            <div class="category">
+                <h3 class="category-title" style="background-color: #6C757D;">Legal</h3>
+                <div class="task-engines">
+                    <div class="task-engine-card">
+                        <h4>Contract Clause Extractor</h4>
+                        <p>Extracts key clauses from contracts.</p>
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Social Media -->
+            <div class="category">
+                <h3 class="category-title" style="background-color: #E83E8C;">Social Media</h3>
+                <div class="task-engines">
+                    <div class="task-engine-card">
+                        <h4>Social Media Trend Analyzer</h4>
+                        <p>Identifies trends and sentiments.</p>
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Lifestyle -->
+            <div class="category">
+                <h3 class="category-title" style="background-color: #FFC107;">Lifestyle</h3>
+                <div class="task-engines">
+                    <div class="task-engine-card">
+                        <h4>Recipe Suggestor</h4>
+                        <p>Suggests recipes from ingredients.</p>
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                    <div class="task-engine-card">
+                        <h4>Language Translator</h4>
+                        <p>Translates text accurately.</p>
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Finance -->
+            <div class="category">
+                <h3 class="category-title" style="background-color: #20C997;">Finance</h3>
+                <div class="task-engines">
+                    <div class="task-engine-card">
+                        <h4>Financial Report Analyzer</h4>
+                        <p>Extracts insights from reports.</p>
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                </div>
+            </div>
         </section>
         <section id="submit" class="submit">
             <h2>Submit Your Task Engine</h2>
@@ -62,6 +196,18 @@
                 <input type="text" id="name" name="name" required>
                 <label for="description">Description:</label>
                 <textarea id="description" name="description" required></textarea>
+                <label for="category">Category:</label>
+                <select id="category" name="category" required>
+                    <option value="Customer Service">Customer Service</option>
+                    <option value="Content Creation">Content Creation</option>
+                    <option value="Productivity">Productivity</option>
+                    <option value="Healthcare">Healthcare</option>
+                    <option value="Education">Education</option>
+                    <option value="Legal">Legal</option>
+                    <option value="Social Media">Social Media</option>
+                    <option value="Lifestyle">Lifestyle</option>
+                    <option value="Finance">Finance</option>
+                </select>
                 <label for="link">GitHub Link:</label>
                 <input type="url" id="link" name="link" required>
                 <button type="submit">Submit</button>
