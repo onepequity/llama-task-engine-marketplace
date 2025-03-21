@@ -8,7 +8,7 @@ body {
 .header {
     display: flex;
     align-items: center;
-    background-color: #0066FF;
+    background-color: #003366;
     color: white;
     padding: 1em;
 }
@@ -37,14 +37,20 @@ body {
     text-decoration: none;
 }
 
+main {
+    background: linear-gradient(to bottom, #003366, #00CC66);
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    padding: 2em;
+}
+
 .pitch {
     text-align: center;
     padding: 2em;
-    background-color: #f4f4f4;
 }
 
 .pitch h2 {
-    color: #0066FF;
+    color: white;
 }
 
 .cta-buttons {
@@ -61,36 +67,46 @@ body {
 }
 
 .catalog {
-    padding: 2em;
+    padding: 2em 0;
+}
+
+.table-wrapper {
+    background-color: #006699;
+    padding: 1em;
+    border-radius: 5px;
+    overflow-x: auto;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
+    min-width: 600px;
 }
 
 th, td {
-    padding: 0.5em;
+    padding: 0.5em 1em;
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    border: 1px solid rgba(255,255,255,0.2);
 }
 
 th {
-    background-color: #0066FF;
+    background-color: #003366;
+    color: white;
+}
+
+tr {
+    background-color: #006699;
     color: white;
 }
 
 tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
-tr:hover {
-    background-color: #ddd;
+    background-color: #0077AA;
 }
 
 .submit {
+    background-color: white;
+    color: black;
     padding: 2em;
-    background-color: #f4f4f4;
 }
 
 form {
@@ -107,11 +123,12 @@ label {
 input, textarea {
     padding: 0.5em;
     margin-top: 0.5em;
+    border: 1px solid #ccc;
 }
 
 button {
     margin-top: 1em;
-    background-color: #0066FF;
+    background-color: #00CC66;
     color: white;
     padding: 0.5em;
     border: none;
@@ -120,8 +137,8 @@ button {
 }
 
 footer {
+    background-color: #003366;
+    color: white;
     text-align: center;
     padding: 1em;
-    background-color: #333;
-    color: white;
 }
